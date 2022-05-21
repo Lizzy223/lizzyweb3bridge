@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/lizzyweb3bridge/static/js/main.ff18f1d1.js",
+    "static/js/377.37adcb12.chunk.js": "/lizzyweb3bridge/static/js/377.37adcb12.chunk.js",
+    "static/media/logo.svg": "/lizzyweb3bridge/static/media/logo.034ef726eb08f413c8e9ff1b0abe7414.svg",
+    "index.html": "/lizzyweb3bridge/index.html",
+    "main.ff18f1d1.js.map": "/lizzyweb3bridge/static/js/main.ff18f1d1.js.map",
+    "377.37adcb12.chunk.js.map": "/lizzyweb3bridge/static/js/377.37adcb12.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.ff18f1d1.js"
+  ]
+}
