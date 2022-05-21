@@ -1,9 +1,8 @@
-import {Table, TableContainer, TableCaption, Thead, Th, Tr, Tfoot, Td, Tbody, list} from '@chakra-ui/react'
+import {Table, TableContainer, TableCaption, Thead, Th, Tr, Tfoot, Td, Tbody} from '@chakra-ui/react'
 import Bank from './bank'
-import {useState} from 'react'
 
 const ListOfUser = ()=>{
-    const [list, setList] = useState(Bank)
+    
     return(
     <Tr>
         <Td>{Bank.name}</Td>
@@ -14,7 +13,7 @@ const ListOfUser = ()=>{
     )
 }
 
-const Dashboard = ({list})=>{
+const Dashboard = ()=>{
 
     return(
         <TableContainer>
@@ -36,9 +35,9 @@ const Dashboard = ({list})=>{
                     <Td>{Bank.amount}</Td>
                 </Tr>
                 {
-                    list.map(lists =>{
+                    Bank.map(banks =>{
                         return(
-                            <ListOfUser lists={lists}/>
+                            <ListOfUser/>
                         )
                     })
                 }
